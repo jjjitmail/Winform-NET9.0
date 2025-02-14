@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="attributes\**" />
+    <Compile Remove="converters\**" />
+    <Compile Remove="data\**" />
+    <Compile Remove="enum\**" />
+    <Compile Remove="filters\**" />
+    <Compile Remove="helpers\**" />
+    <Compile Remove="interfaces\**" />
+    <EmbeddedResource Remove="attributes\**" />
+    <EmbeddedResource Remove="converters\**" />
+    <EmbeddedResource Remove="data\**" />
+    <EmbeddedResource Remove="enum\**" />
+    <EmbeddedResource Remove="filters\**" />
+    <EmbeddedResource Remove="helpers\**" />
+    <EmbeddedResource Remove="interfaces\**" />
+    <None Remove="attributes\**" />
+    <None Remove="converters\**" />
+    <None Remove="data\**" />
+    <None Remove="enum\**" />
+    <None Remove="filters\**" />
+    <None Remove="helpers\**" />
+    <None Remove="interfaces\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="controls\DataStyle.cs" />
+    <Compile Remove="controls\SortableBindingList.cs" />
+    <Compile Remove="models\LuxData.cs" />
+    <Compile Remove="models\ScannerData.cs" />
+    <Compile Remove="models\TeleControllerData.cs" />
+    <Compile Remove="Result.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.5.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Data.OleDb" Version="9.0.2" />
+    <PackageReference Include="System.Reactive.Linq" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Attributes\Attributes.csproj" />
+    <ProjectReference Include="..\Converter\Converter.csproj" />
+    <ProjectReference Include="..\Data\Data.csproj" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+    <ProjectReference Include="..\Enum\Enum.csproj" />
+    <ProjectReference Include="..\Filters\Filters.csproj" />
+    <ProjectReference Include="..\Helpers\Helpers.csproj" />
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+    <ProjectReference Include="..\Services\Services.csproj" />
+  </ItemGroup>
+
+</Project>
