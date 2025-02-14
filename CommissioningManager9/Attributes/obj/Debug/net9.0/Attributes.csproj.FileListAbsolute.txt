@@ -1,0 +1,11 @@
+C:\Users\Cloud\source\repos\CommissioningManager9\Attributes\bin\Debug\net9.0\Attributes.deps.json
+C:\Users\Cloud\source\repos\CommissioningManager9\Attributes\bin\Debug\net9.0\Attributes.dll
+C:\Users\Cloud\source\repos\CommissioningManager9\Attributes\bin\Debug\net9.0\Attributes.pdb
+C:\Users\Cloud\source\repos\CommissioningManager9\Attributes\obj\Debug\net9.0\Attributes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cloud\source\repos\CommissioningManager9\Attributes\obj\Debug\net9.0\Attributes.AssemblyInfoInputs.cache
+C:\Users\Cloud\source\repos\CommissioningManager9\Attributes\obj\Debug\net9.0\Attributes.AssemblyInfo.cs
+C:\Users\Cloud\source\repos\CommissioningManager9\Attributes\obj\Debug\net9.0\Attributes.csproj.CoreCompileInputs.cache
+C:\Users\Cloud\source\repos\CommissioningManager9\Attributes\obj\Debug\net9.0\Attributes.dll
+C:\Users\Cloud\source\repos\CommissioningManager9\Attributes\obj\Debug\net9.0\refint\Attributes.dll
+C:\Users\Cloud\source\repos\CommissioningManager9\Attributes\obj\Debug\net9.0\Attributes.pdb
+C:\Users\Cloud\source\repos\CommissioningManager9\Attributes\obj\Debug\net9.0\ref\Attributes.dll
